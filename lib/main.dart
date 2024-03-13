@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:ntsoa/gradient_container.dart';
+import 'package:ntsoa/composants/gradient_container.dart';
 
 void main() {
   runApp(
     const MaterialApp(
       home: Scaffold(
-          backgroundColor: Color.fromARGB(212, 181, 232, 149),
-          body: GradientContainer()),
+          body: GradientContainer(
+              Colors.black, Color.fromARGB(239, 237, 234, 234))),
     ),
   );
 }
